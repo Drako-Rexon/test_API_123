@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 songJson = [
     {
